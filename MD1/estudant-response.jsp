@@ -8,7 +8,7 @@
 <title>Confirmação do Estudante</title>
 </head>
 <body>
-	Olá, AlunoO <%=request.getParameter("nome") %>!
+	Olá, Aluno <%=request.getParameter("nome") %>!
 	<br/>
 	O seu RGM é: <%=request.getParameter("rgm") %>.
 	<br/>
@@ -32,5 +32,6 @@
 			out.print(CT);
 		%>
 	</p>
+	<button href="http://localhost:8080/Primeiro_Projeto_Java/index.jsp">Voltar</button>
 </body>
 </html>
